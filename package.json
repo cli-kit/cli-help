@@ -25,15 +25,15 @@
   ],
   "dependencies": {
     "cli-flag-util": "^1.0.0",
-    "cli-util": "^1.1.19",
+    "cli-util": "^1.1.26",
     "markzero": "^0.1.29",
     "moment": "^2.8.3"
   },
   "devDependencies": {
-    "cli-define": "^0.6.4",
-    "mocha": "~1.17.0",
     "chai": "~1.8.1",
-    "istanbul": "~0.2.4"
+    "cli-define": "^0.6.7",
+    "istanbul": "~0.2.4",
+    "mocha": "~1.17.0"
   },
   "engine": [
     "node >= 0.10.21"

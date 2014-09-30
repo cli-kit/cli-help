@@ -24,6 +24,7 @@
     "help"
   ],
   "dependencies": {
+    "cli-flag-util": "^1.0.0",
     "cli-util": "^1.1.19",
     "markzero": "^0.1.29",
     "moment": "^2.8.3"

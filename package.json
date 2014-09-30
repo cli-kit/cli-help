@@ -24,12 +24,12 @@
     "help"
   ],
   "dependencies": {
-    "cli-define": "^0.6.4",
     "cli-util": "^1.1.19",
     "markzero": "^0.1.29",
     "moment": "^2.8.3"
   },
   "devDependencies": {
+    "cli-define": "^0.6.4",
     "mocha": "~1.17.0",
     "chai": "~1.8.1",
     "istanbul": "~0.2.4"

@@ -24,17 +24,17 @@
     "help"
   ],
   "dependencies": {
-    "cli-description": "^1.0.3",
-    "cli-flag-util": "^1.0.0",
-    "cli-util": "^1.1.26",
-    "markzero": "^0.1.29",
-    "moment": "^2.8.3"
+    "cli-description": "~1.0.3",
+    "cli-flag-util": "~1.0.0",
+    "cli-util": "~1.1.27",
+    "markzero": "~0.1.29",
+    "moment": "~2.10.3"
   },
   "devDependencies": {
-    "chai": "~1.8.1",
-    "cli-define": "^0.6.7",
-    "istanbul": "~0.2.4",
-    "mocha": "~1.17.0"
+    "chai": "~3.2.0",
+    "cli-define": "~0.6.13",
+    "istanbul": "~0.3.17",
+    "mocha": "~2.2.5"
   },
   "engine": [
     "node >= 0.10.21"

@@ -1,19 +1,20 @@
 {
   "name": "cli-help",
   "version": "0.1.1",
-  "description": "",
-  "author": "muji <noop@xpm.io>",
+  "description": "Command line program help output",
+  "author": "muji",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/freeformsystems/cli-help"
+    "url": "https://github.com/cli-kit/cli-help"
   },
   "bugs": {
-    "url": "https://github.com/freeformsystems/cli-help/issues"
+    "url": "https://github.com/cli-kit/cli-help/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/freeformsystems/cli-help/blob/master/LICENSE"
+      "url": "https://github.com/cli-kit/cli-help/blob/master/LICENSE"
     }
   ],
   "keywords": [
@@ -40,7 +41,8 @@
     "node >= 0.10.21"
   ],
   "scripts": {
-    "test": "istanbul cover _mocha -- -u bdd --recursive --check-leaks --reporter list -A test/spec/"
-  },
-  "config": {}
+    "lint": "jshint . && jscs .",
+    "test": "NODE_ENV=test mocha ${SPEC:-test/spec}",
+    "cover": "NODE_ENV=test istanbul cover _mocha -- ${SPEC:-test/spec}"
+  }
 }

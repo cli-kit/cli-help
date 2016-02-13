@@ -40,7 +40,7 @@
     "node >= 0.10.21"
   ],
   "scripts": {
-    "test": "istanbul cover _mocha -- -u bdd --recursive --reporter list -A test/spec/"
+    "test": "istanbul cover _mocha -- -u bdd --recursive --check-leaks --reporter list -A test/spec/"
   },
   "config": {}
 }
